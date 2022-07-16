@@ -20,8 +20,7 @@ connection = mysql.createConnection({
     database: 'tannae',
     password: 'zoqtmxhs17',
     port: 3306
-});
-connection = connection.promise();
+}).promise();
 
 // << Listen >>
 server.listen(3000, () => {
